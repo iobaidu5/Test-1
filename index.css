@@ -1,0 +1,327 @@
+*{
+	box-sizing: border-box;
+}
+
+
+body {
+    background-image: linear-gradient(to right,#D0D3D4, #B3B6B7);
+    font-family: 'Poppins', sans-serif;
+    overflow: hidden;
+}
+
+
+.container{
+    background-color: white;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+    width: 90vw;
+    height: 95vh;
+    padding: 2rem 4rem;
+    display: flex;
+}
+
+.login-form{
+	justify-content: flex;
+	align-items: left;
+	text-align: left;
+}
+
+.row1{
+    margin-left: 5rem;
+    display: inline;  
+    float: left; 
+}
+
+h1{
+    font-size: 3rem;
+    font-weight: bolder;
+    color: #060459;
+    padding-top: 1rem;
+}
+
+h3{
+    color: #EC7063;
+    text-align: center;
+    max-width: 250px;
+    position: relative;
+}
+
+h3:before{
+    content: "";
+    display: block;
+    width: 50px;
+    height: 2px;
+    background: #EC7063;
+    left: 0;
+    top: 50%;
+    position: absolute;
+  }
+
+h5{
+    margin-top: 1rem;
+    color: #E74C3C;
+}
+.signup-btn {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+button.btn-signup {
+  width: 14rem;
+  height:35px;  
+  border-radius: 5px;
+  background: white;
+  color:black;
+  font-size: 10px;
+  border: 1px solid #D0D3D4;
+  background-repeat: no-repeat;
+  text-align: center;
+  margin:5px;
+  display: inline-block;
+}
+
+.btn-signup-google:hover, .btn-signup-google:focus{
+    background:#E74C3C;
+    color: white;
+}
+
+.btn-signup-facebook:hover, .btn-signup-facebook:focus{
+    background: #3498DB;
+    color: white;
+}
+
+.btn-image{
+    float: left;
+    width: 15px;
+    height: 15px;
+    background-color: #E74C3C;
+}
+
+
+form label { 
+    display: block;
+    font-size: 12px;
+ }
+
+ .input-div-info {
+    display: flex; 
+    margin-bottom: 1rem;
+ }
+ 
+ .input-div-info label {
+    display: block;
+    
+ }
+ .input-div-info input[type="text"] {
+    border: 1px solid #D0D3D4;
+    background-color: #FBFCFC;
+    border-radius: 5px;
+    width: 14rem;
+    height: 2.5rem;
+    margin-right: 1rem;
+ }
+ .input-div-pass input[type="text"]{
+     display: block;
+     border: 1px solid #D0D3D4;
+     background-color: #FBFCFC;
+     border-radius: 5px;
+     width: 29rem;
+     height: 2.5rem;
+     margin-right: 1rem;
+ }
+
+ .terms {
+     margin: 1rem 0rem; 
+     font-size: 10px;
+ }
+
+ .checkbox {
+    width: 1.2rem;
+    height: 1.2rem;
+    margin-right: 10px;
+    float: left;
+    border: 1px solid #D0D3D4;
+    background-color: #FBFCFC;
+    border-radius: 5px;
+    opacity: 0.7;
+ }
+.next-btn {
+    background-color: #E74C3C;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 1.2rem 1.4rem;
+    display: inline-block;
+    border-radius: 2rem;
+    transition: all .2s;
+    position: relative;
+    border: none;
+    cursor: pointer;
+    margin-top: 1rem;
+    
+  }
+
+.next-btn:hover, .next-btn:focus {
+    transform: translateY(-3px);
+    box-shadow: 0 1rem 2rem #F1948A;
+ }
+  
+.next-btn:active {
+    transform: translateY(-1px);
+    box-shadow: 0 0.5rem 1rem #F1948A; 
+}
+
+.fa-arrow-right {
+    font-size: 1.5rem;
+}
+
+.signin {
+    margin-left: 2rem;
+    margin-top: 2rem;
+    font-size: 11px;
+}
+
+.signin-link {
+    margin-left: 5px;
+    color: #4A235A;
+    text-decoration: none;
+}
+
+.row2{
+    width: 25rem;
+    height: 25rem;
+    background-color: #E74C3C;
+    margin: auto;
+}
+
+@media only screen and (max-width: 768px){
+    h1{
+        font-size: 2rem;
+        font-weight: bolder;
+        color: #060459;
+        padding-top: 1rem;
+    }
+    
+    h3{
+        color: #EC7063;
+        text-align: center;
+        max-width: 250px;
+        margin-top: 2rem;
+        position: relative;
+    }
+
+    button.btn-signup {
+        width: 10rem;
+        height:30px;  
+        border-radius: 5px;
+        background: white;
+        color:black;
+        font-size: 10px;
+        border: 1px solid #D0D3D4;
+        background-repeat: no-repeat;
+        text-align: center;
+        margin:3px;
+        display: block;
+      }
+
+      .input-div-info input[type="text"] {
+        border: 1px solid #D0D3D4;
+        background-color: #FBFCFC;
+        border-radius: 5px;
+        width: 14rem;
+        height: 2.5rem;
+        margin-right: 1rem;
+     }
+
+     .input-div-info {
+        display: block; 
+        margin-bottom: 1rem;
+     }
+      
+     .input-div-pass input[type="text"]{
+        display: block;
+        border: 1px solid #D0D3D4;
+        background-color: #FBFCFC;
+        border-radius: 5px;
+        width: 14rem;
+        height: 2.5rem;
+        margin-right: 1rem;
+    }
+
+    .terms {
+        margin: 1rem 0rem; 
+        font-size: 8px;
+    }
+   
+    .next-btn {
+        background-color: #E74C3C;
+        color: white;
+        text-transform: uppercase;
+        text-decoration: none;
+        display: flex;
+        float: left;
+        margin-right: 3rem;
+        border-radius: 2rem;
+        transition: all .2s;
+        position: relative;
+        border: none;
+        cursor: pointer;
+    }
+    
+    .signin {
+        margin-top: 2rem;
+        font-size: 11px;
+    }
+      
+    
+    .row2{
+        width: 10rem;
+        height: 10rem;
+        background-color: #E74C3C;
+        margin: auto;
+    }
+}
+
+@media only screen and (max-width: 600px){
+
+    button.btn-signup {
+        width: 9rem;
+        height:20px;  
+        border-radius: 5px;
+        background: white;
+        color:black;
+        font-size: 10px;
+        border: 1px solid #D0D3D4;
+        background-repeat: no-repeat;
+        text-align: center;
+        margin:3px;
+        display: block;
+      }
+
+      .input-div-info input[type="text"] {
+        border: 1px solid #D0D3D4;
+        background-color: #FBFCFC;
+        border-radius: 5px;
+        width: 10rem;
+        height: 2rem;
+        margin-right: 1rem;
+     }
+
+     .input-div-pass input[type="text"]{
+        display: block;
+        border: 1px solid #D0D3D4;
+        background-color: #FBFCFC;
+        border-radius: 5px;
+        width: 10rem;
+        height: 2rem;
+        margin-right: 1rem;
+    }
+
+    .row2{
+        width: 5rem;
+        height: 5rem;
+        background-color: #E74C3C;
+        margin: auto;
+    }
+}
